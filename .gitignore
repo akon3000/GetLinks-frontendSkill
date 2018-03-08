@@ -1,0 +1,8 @@
+# Exclude build Directory
+build/*
+
+# Exclude node_modules Directory
+node_modules/*
+
+# Exclude package-lock file
+package-lock.json
