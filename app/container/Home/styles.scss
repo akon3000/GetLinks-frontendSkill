@@ -3,7 +3,7 @@
 .home-container {
   position: relative;
 
-  .brand-logo {
+  .top-bar > .brand-logo {
     text-align: center;
     img {
       display: inline-block;
@@ -11,19 +11,37 @@
     }
   }
 
-  .nav-menu {
+  .top-bar > .nav-menu {
     display: flex;
     justify-content: center;
     .nav-menu-item {
       font-weight: 700;
       font-size: $font-size-lv2;
-      margin: 35px 25px 0 25px;
+      margin: 45px 25px 0 25px;
       span {
         cursor: pointer;
         &:hover {
           color: $space-gray-lv3;
           border-bottom: 2px solid $space-gray-lv3;
         }
+      }
+    }
+  }
+
+  .flex-content {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .flex-box {
+      max-width: 500px;
+      text-align: center;
+      img {
+        width: 150px;
+        display: inline-block; 
+      }
+      p {
+        text-align: justify;
       }
     }
   }

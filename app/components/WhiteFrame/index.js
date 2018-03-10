@@ -9,7 +9,7 @@ class WhiteFrame extends Component {
 
   render() {
     return (
-      <div className={`white-frame ${this.props.className}`} style={this.props.style}>
+      <div className={`white-frame ${this.props.className || ''}`} style={this.props.style}>
         { this.props.children }
       </div>
     );
