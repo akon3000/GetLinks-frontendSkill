@@ -1,0 +1,31 @@
+@import '../../scss/variable.scss';
+
+.home-container {
+  position: relative;
+
+  .brand-logo {
+    text-align: center;
+    img {
+      display: inline-block;
+      border-radius: 50%;
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    .nav-menu-item {
+      font-weight: 700;
+      font-size: $font-size-lv2;
+      margin: 35px 25px 0 25px;
+      span {
+        cursor: pointer;
+        &:hover {
+          color: $space-gray-lv3;
+          border-bottom: 2px solid $space-gray-lv3;
+        }
+      }
+    }
+  }
+
+}

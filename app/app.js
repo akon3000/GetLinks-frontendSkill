@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Home from './container/Home';
 
 import './scss/global.scss';
 
@@ -9,9 +10,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        Hello World svcsa
-      </div>
+      <Home />
     )
   }
 }
